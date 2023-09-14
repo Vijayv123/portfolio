@@ -621,6 +621,24 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+.contact-content-con .right-contact .submit-btn button{
+  background-color: transparent;
+  border: unset;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--color-white);
+  border: 1px solid var(--color-secondary);
+  cursor: pointer;
+  transition: background-color 1s;
+}
+.contact-content-con .right-contact .submit-btn button:hover{
+  background-color: var(--color-secondary);
+  transition: background-color 1s;
+  border-color: white;
+}
 
 /*Independed components*/
 .btn-con {
