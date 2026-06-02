@@ -1,30 +1,58 @@
-# Vijay V Portfolio Website
+👨‍💻 About Me
 
-A modern animated portfolio website built with plain HTML, CSS and JavaScript.
+Hi, I am Vijay V, a Full Stack Developer with experience in building responsive websites, REST APIs, database-driven applications, and user-friendly web interfaces.
 
-## Sections
-- Hero
-- About
-- Skills
-- Projects
-- Contact
+I have hands-on experience with:
 
-## How to run
-Open `index.html` in your browser.
+HTML
+CSS
+JavaScript
+React.js
+PHP
+CodeIgniter
+MySQL
+MongoDB
+REST APIs
+Git and GitHub
+📌 Features
+Modern responsive design
+Smooth animations
+About section
+Projects section
+Contact section
+Working email contact form
+Project live demo links
+GitHub project links
+Mobile-friendly layout
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript
+FormSubmit for contact form
+GitHub Pages / Netlify / Vercel for deployment
+📂 Project Sections
+Home
 
-## How to deploy on GitHub Pages
-1. Create a new GitHub repository, for example `vijay-portfolio`.
-2. Upload all files from this folder.
-3. Go to repository **Settings > Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save and open the generated GitHub Pages link.
+A clean introduction section with my name, role, and call-to-action buttons.
 
-## Important edits
-Replace `#` links in `index.html` with your real project links:
-- Live Demo
-- GitHub
-- LinkedIn
-- Resume path
+About
+
+Brief details about my background, skills, and career goal.
+
+Projects
+
+Showcases my main portfolio projects such as:
+
+School ERP System
+To-Do App with Authentication
+Weather Application
+Library Management System
+Contact
+
+A contact form where recruiters or clients can send messages directly to my email.
+
+📬 Contact
+
+Email: vijayvraj2000@gmail.com
+GitHub: https://github.com/Vijayv123
+LinkedIn: https://www.linkedin.com/in/vijayv10122000/
