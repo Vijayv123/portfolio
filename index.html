@@ -1,12 +1,185 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vijay V | Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay V | Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Vijay V - Full Stack Developer skilled in React, JavaScript, PHP, CodeIgniter, MySQL, MongoDB and REST APIs." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">Vijay<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Vijay_Resume.pdf" class="resume-btn" target="_blank">Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Available for Full Stack Developer roles</p>
+        <h1>Hi, I'm <span>Vijay V</span><br/>I build clean, fast and user-friendly web apps.</h1>
+        <p class="hero-text">
+          Full Stack Developer with hands-on experience in React, JavaScript, PHP, CodeIgniter, MySQL, MongoDB and REST APIs.
+          I love building practical products like School ERP systems, dashboards, authentication apps and weather applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-1">
+        <div class="profile-circle">VV</div>
+        <h2>Full Stack Developer</h2>
+        <p>React • JavaScript • PHP • MySQL • MongoDB</p>
+        <div class="stats">
+          <div><strong>2+</strong><span>Years Dev Exp</span></div>
+          <div><strong>4+</strong><span>Projects</span></div>
+          <div><strong>Fast</strong><span>Learner</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Developer with business mindset</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <p>
+            I am Vijay V, a developer from Bangalore Rural with experience in building responsive websites,
+            REST APIs and database-driven applications. I started my career in electrical design and later moved into software development,
+            which helped me build strong problem-solving and practical product-thinking skills.
+          </p>
+          <p>
+            I am currently focused on building portfolio projects and full-stack applications that solve real business problems.
+          </p>
+        </div>
+        <div class="skills reveal delay-1">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+          <span>Bootstrap</span><span>PHP</span><span>CodeIgniter</span><span>REST APIs</span>
+          <span>MySQL</span><span>MongoDB</span><span>GitHub</span><span>UI/UX</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Featured work to prove my skills</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-icon">🏫</div>
+          <h3>School ERP System</h3>
+          <p>
+            A complete school management system with student records, classes, sections,
+            academic year management, promotion flow and dashboard analytics.
+          </p>
+          <div class="tech-stack">
+            <span>React</span><span>Node</span><span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-icon">✅</div>
+          <h3>To-Do App with Authentication</h3>
+          <p>
+            Task management app with user login, protected routes, CRUD operations and database storage.
+          </p>
+          <div class="tech-stack">
+            <span>React</span><span>Express</span><span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="https://vijayv123.github.io/To-Do-App-with-Authentication/" target="_blank">Live Demo</a>
+            <a href="https://github.com/Vijayv123/To-Do-App-with-Authentication" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-icon">🌦️</div>
+          <h3>Weather Application</h3>
+          <p>
+            Weather app with current location weather, city search suggestions and common city weather cards.
+          </p>
+          <div class="tech-stack">
+            <span>React</span><span>API</span><span>CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://vijayv123.github.io/weather-app/" target="_blank">Live Demo</a>
+            <a href="https://github.com/Vijayv123/weather-app" target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-3">
+          <div class="project-icon">📚</div>
+          <h3>Library Management System</h3>
+          <p>
+            System to manage books, students, issue/return records, login and admin dashboard.
+          </p>
+          <div class="tech-stack">
+            <span>PHP</span><span>CodeIgniter</span><span>MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a job or project for me?</h2>
+        <p>
+          I am ready to join as a Full Stack Developer / Junior Software Developer and contribute from day one.
+        </p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:vijayvraj2000@gmail.com">Email Me</a>
+          <a class="btn secondary" href="https://github.com/Vijayv123" target="_blank">GitHub</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/vijayv10122000" target="_blank">LinkedIn</a>
+        </div>
+
+        <form class="contact-form" action="https://formsubmit.co/vijayvraj2000@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Vijay V. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
